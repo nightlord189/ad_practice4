@@ -8,7 +8,9 @@ import (
 
 //Config - main app's config
 type Config struct {
-	ConnectionString string
+	Host     string
+	Port     int
+	Keyspace string
 }
 
 //Load - загружает конфиг по указанному пути
